@@ -1,0 +1,271 @@
+.resume{
+    width: 100%;
+    min-height: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-top: 10%;
+}
+
+.resumeTitle h2{
+    font-size: 30px;
+    align-items: center;
+    font-weight: 500;
+    font-family: "Playfair Display","Bookman", serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    padding-bottom: 8px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.resumeTitle h2:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #5bccfc;
+}
+
+.resumeTitle h2:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 155px;
+    background-color: #5bccfc;
+}
+
+.vertical-timeline {
+    margin: 2em auto;
+    padding: 2em 0;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .vertical-timeline{
+        max-width: 900px;
+        width: 90%;
+    }
+}
+
+.vertical-timeline:before {
+    background: #1b1b1b;
+    background-image: linear-gradient(180deg,#fff 0,#1b1b1b 30px,#1b1b1b calc(100% - 30px),#fff);
+    border-radius: 4px;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    box-sizing: inherit;
+}
+
+@media (max-width: 767px){
+    .vertical-timeline:before{
+        left: 18px;
+    }
+}
+
+.vertical-timeline:after {
+    clear: both;
+    content: "";
+    display: table;
+    box-sizing: inherit;
+}
+
+.vertical-timeline-element:first-child {
+    margin-top: 0;
+}
+
+.vertical-timeline-element {
+    margin: 4em 0;
+    position: relative;
+}
+
+.vertical-timeline * {
+    box-sizing: border-box;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+    visibility: visible;
+    color: #fff;
+    background: #5bccfc;
+}
+
+
+.vertical-timeline-element-icon {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+.vertical-timeline-element-icon {
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+
+@media (min-width: 767px){
+    .vertical-timeline-element-icon{
+        left: 48.5%;
+    }
+}
+
+.vertical-timeline-element-icon svg {
+    fill: currentColor;
+    display: block;
+    height: 24px;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    position: relative;
+    top: 50%;
+    width: 24px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1169px){
+    .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+        animation: cd-bounce-2-inverse .6s;
+        visibility: visible;
+    }
+}
+
+.vertical-timeline-element-date {
+         font-size: 17px;
+         color: #333;
+         font-family: "Playfair Display","Bookman", serif;
+}
+
+.vertical-timeline-element>div {
+    min-height: 1px;
+}
+
+.dateRight{
+    float: right;
+    margin-right: 42%;
+}
+
+.datesRight{
+    float: right;
+    margin-right: 31%;
+}
+
+.datesRights{
+    float: right;
+    margin-right: 32%;
+}
+
+.dateLeft{
+    float: left;
+    margin-left: 33%;
+}
+
+.vertical-timeline-element-content {
+    background: #fff;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+    margin-left: 60px;
+    padding: 1em;
+    position: relative;
+}
+
+@media (min-width: 767px) {
+    .vertical-timeline-element-content{
+        margin-left: 53%;
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 767px) {
+    .left {
+        margin-left: 10%;
+        margin-right: 53%;
+    }
+}
+
+.MuiTypography-h5 {
+    font-size: 1.5rem;
+    font-family: "Playfair Display","Bookman", serif;
+    font-weight: 400;
+    line-height: 1.334;
+    letter-spacing: 0em;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    opacity: .7;
+    padding: 0.8em 0;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    display: inline-block;
+    color: #1b1b1b;
+}
+
+h5 {
+    display: block;
+    text-rendering: optimizeLegibility;
+    color: inherit;
+    padding: 0;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.vertical-timeline-element-subtitle, .vertical-timeline-element-title {
+    margin: 0;
+}
+
+.MuiTypography-h6 {
+    font-size: 1.25rem;
+    font-family: "Playfair Display","Bookman", serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
+
+h6 {
+    display: block;
+    text-rendering: optimizeLegibility;
+    color: inherit;
+    padding: 0;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.vertical-timeline-element-content p {
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 1em 0 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Playfair Display","Bookman", serif;
+}
+
+
+
+
+
+

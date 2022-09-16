@@ -1,0 +1,180 @@
+.aboutMe{
+    width: 100%;
+    min-height: 0;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-color: #fff;
+    padding-top: 10%;
+}
+
+.aboutTitle h2{
+    font-size: 30px;
+    align-items: center;
+    font-weight: 500;
+    font-family: "Playfair Display","Bookman", serif;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    padding-bottom: 8px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.aboutTitle h2:before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #5bccfc;
+}
+
+.aboutTitle h2:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 155px;
+    background-color: #5bccfc;
+}
+
+h2{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Playfair Display","Bookman", serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+p {
+    display: block;
+    font-family: "Playfair Display","Bookman", serif;
+    font-size: 16px;
+    font-family: georgia;
+    text-align: left;
+    padding: 25px;
+    word-spacing: .1em;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 10%;
+    margin-right: 5%;
+
+}
+
+.userShow{
+    padding: 20px;
+}
+
+.userShowTop{
+    display: block;
+    align-items: center;
+    
+}
+
+.userShowImg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.userShowUsername{
+    font-weight: 700;
+    color: #030e12;
+    font-family: "Playfair Display","Bookman", serif;
+}
+
+.userShowUserTitle{
+    font-weight: 100;
+    color: #030e12;
+    font-family: "Playfair Display","Bookman", serif;
+}
+
+.aboutMeBottom{
+    margin-top: 20px;
+}
+
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    color: #080808;
+}
+
+.userShowIcon{
+    font-size: 16px !important;
+    color: #c50000;
+}
+
+.userShowInfoTitle{
+    margin-left: 6px;
+    display: block;
+    font-family: "Playfair Display","Bookman", serif;
+    font-size: 16px;
+    font-family: georgia;
+    text-align: left;
+    padding: 5px;
+    word-spacing: .1em;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+/*.aboutBottom{
+    -webkit-box-shadow: 5px 5px 15px 5px #555; 
+    box-shadow: 5px 5px 15px 5px #555;
+    width: 100%;
+    height: auto;
+    
+}
+
+.aboutLeft{
+    float: left;
+    
+    max-width: 50%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aboutRight{
+    float: right;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    justify-content: left;
+}
+
+.aboutList{
+    list-style: none;
+    text-align: left;
+}
+
+.aboutItem{
+    padding: 20px;
+}
+
+
+
+.aboutImg{
+    width: 40%;
+}
+
+p{
+    display: block;
+}*/

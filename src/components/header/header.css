@@ -1,0 +1,124 @@
+.header{
+    justify-content: space-between;
+    align-items: center;
+    /*background-image: url(https://media.istockphoto.com/photos/abstract-futuristic-with-connection-lines-on-blue-background-plexus-picture-id1285395672?b=1&k=20&m=1285395672&s=612x612&w=0&h=PoEUi6yGvpIpf0HcFvlsaikWkLg-grfwaWYVKz5ob5g=);
+    /*background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80);*/
+    /*background-image: url(/images/header2.jpg);*/
+    background-image: url(https://media.self.com/photos/62b2377de3f89bd70e68b82b/4:3/w_2560%2Cc_limit/waxing-body-hair-at-home.jpg);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    background-position: center;
+}
+
+.name h1{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.name h1{
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 45px;
+    font-family: "Playfair", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #111;
+}
+
+.name h1:before{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    height: 1px;
+    content: "";
+    background-color: #777;
+    
+}
+
+.name h1:after{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0px;
+    content: '\00a7';
+    font-size: 20px;
+    line-height: 40px;
+    color: #c50000;
+    font-weight: 500;
+    display: block;
+    background-color: #777;
+}
+
+.name span{
+    line-height: 2em;
+    padding-bottom: 15px;
+    text-transform: none;
+    font-size: 25px;
+    margin-left: -4%;
+    font-weight: normal;
+    font-style: italic;
+    font-family: "Playfair Display","Bookman", serif;
+    color: #111;
+    letter-spacing: -0.005em;
+    word-spacing: 1px;
+    letter-spacing: none;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links{
+    display: block;
+    margin-top: 25px;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin-left: -45px;
+    font-size: 25px; 
+}
+
+.links::before{
+    margin-bottom: 3.125rem;
+    width: 1px;
+    height: 100%;
+    margin: 0 auto;
+    content: '';
+    background-color: rgba(255,255,255,.4);
+    box-sizing: border-box;
+}
+
+.links a{
+    color: #c50000;
+    padding-left: 25px;
+    
+    
+}
+
+.icon:hover{
+    color: #5bccf6;
+}
