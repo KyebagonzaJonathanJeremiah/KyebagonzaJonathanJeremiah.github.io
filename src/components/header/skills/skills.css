@@ -23,7 +23,7 @@
     transition: all 0.4s ease 0s;
 }
 
-.skillsTitle h2{
+.skills-title h2{
     font-size: 30px;
     align-items: center;
     font-weight: 500;
@@ -35,7 +35,7 @@
     text-transform: uppercase;
 }
 
-.skillsTitle h2:before{
+.skills-title h2:before{
     content: "";
     position: absolute;
     left: 50%;
@@ -46,7 +46,7 @@
     background-color: #5bccfc;
 }
 
-.skillsTitle h2:after{
+.skills-title h2:after{
     content: "";
     position: absolute;
     left: 50%;
@@ -71,13 +71,13 @@
     
 }
 
-.progressBar{
+.progress-bar{
     width: 100%;
     padding: 15px;
     justify-content: left;
 }
 
-.barTitle{
+.bar-title{
     padding: 6px 0;
     margin: 0;
     font-size: small;

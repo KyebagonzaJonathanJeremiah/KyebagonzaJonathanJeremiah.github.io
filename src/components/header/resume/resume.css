@@ -8,7 +8,7 @@
     padding-top: 10%;
 }
 
-.resumeTitle h2{
+.resume-title h2{
     font-size: 30px;
     align-items: center;
     font-weight: 500;
@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-.resumeTitle h2:before{
+.resume-title h2:before{
     content: "";
     position: absolute;
     left: 50%;
@@ -31,7 +31,7 @@
     background-color: #5bccfc;
 }
 
-.resumeTitle h2:after{
+.resume-title h2:after{
     content: "";
     position: absolute;
     left: 50%;

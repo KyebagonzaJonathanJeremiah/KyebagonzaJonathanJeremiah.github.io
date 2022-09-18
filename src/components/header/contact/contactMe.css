@@ -14,7 +14,7 @@
 }
 
 
-.contactTitle h2{
+.contact-title h2{
     font-size: 30px;
     align-items: center;
     font-weight: 500;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
 }
 
-.contactTitle h2:before{
+.contact-title h2:before{
     content: "";
     position: absolute;
     left: 50%;
@@ -37,7 +37,7 @@
     background-color: #5bccf6;
 }
 
-.contactTitle h2:after{
+.contact-title h2:after{
     content: "";
     position: absolute;
     left: 50%;
@@ -49,29 +49,12 @@
     background-color: #5bccf6;
 }
 
-.userTitleContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.userAddButton{
-    width: 80px;
-    border: none;
-    padding: 5px;
-    background-color: teal;
-    border-radius: 5px;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-}
-
-.contactContainer{
+.contact-container{
     display: flex;
     margin-top: 20px;
 }
 
-.contactShow{
+.contact-show{
     flex: 1;
     padding: 20px;
     margin-left: 35px;
@@ -80,7 +63,7 @@
     box-shadow: 5px 5px 15px 5px #555;
 }
 
-.contactUpdate{
+.contact-update{
     flex: 2;
     padding: 20px;
     -webkit-box-shadow: 5px 5px 15px 5px #555; 
@@ -89,89 +72,89 @@
     margin-right: 35px;
 }
 
-.contactShowTop{
+.contact-show-top{
     display: flex;
     align-items: center;
 }
 
-.contactShowImg{
+.contact-show-img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.contactShowTopTitle{
+.contact-show-top-title{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
 }
 
-.contactShowUsername{
+.contact-show-username{
     font-weight: 700;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.contactShowUserTitle{
+.contact-show-user-title{
     font-weight: 100;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.contactShowBottom{
+.contact-show-bottom{
     margin-top: 20px;
 }
 
-.contactShowInfo{
+.contact-show-info{
     display: flex;
     align-items: center;
     margin: 20px 0px;
     color: #444;
 }
 
-.contactShowIcon{
+.contact-show-icon{
     font-size: 16px !important;
     color: #c50000;
 }
 
-.contactShowInfo span{
+.contact-show-info span{
     margin-left: 10px;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.contactUpdateForm{
+.contact-update-form{
     display: block;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.contactUpdateTitle{
+.contact-update-title{
     font-size: 24px;
     font-weight: 600;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.userUpdateItem{
+.contact-update-item{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     
 }
 
-.userUpdateItem>label{
+.contact-update-item>label{
     margin-bottom: 5px;
     font-size: 14px;
     text-align: left;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.userUpdateInput{
+.contact-update-input{
     border: none;
     width: 100%;
     height: 30px;
     border-bottom: 1px solid gray;
 }
 
-.userUpdateButton{
+.contact-update-button{
     border-radius: 5px;
     border: none;
     padding: 5px;
@@ -183,12 +166,12 @@
     width: 100px;
 }
 
-.userUpdateButton:hover{
+.contact-update-button:hover{
     background-color: #c50000;
 }
 
 @media (max-width: 480px) {
-    .contactContainer {
+    .contact-container {
         justify-content: space-between;
     }
 }

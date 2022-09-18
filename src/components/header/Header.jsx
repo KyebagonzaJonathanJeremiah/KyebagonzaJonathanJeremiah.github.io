@@ -1,6 +1,5 @@
 import React from 'react';
 import './header.css';
-import { Twitter, GitHub, LinkedIn, Beenhere, MailOutline } from '@material-ui/icons';
 import {AiFillGithub, AiFillGitlab, AiFillLinkedin, AiFillMail, AiFillTwitterCircle} from "react-icons/ai";
 
 

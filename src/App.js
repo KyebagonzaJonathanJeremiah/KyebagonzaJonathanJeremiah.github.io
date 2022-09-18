@@ -19,14 +19,6 @@ function App() {
     
     <div className="App">
       <NavBar />
-      {/*<Header />
-      <AboutMe />
-      <Skills />
-      <Resume />
-      <Testimonials />
-      <ContactMe />
-  <Footer />*/}
-
       <div>
         <Route path="/">
           <Header/>
@@ -54,15 +46,6 @@ function App() {
         
       </div>
       <Footer />
-     {/*} <Routes>
-         <Route exact path="/" component={<Header/>}/>
-         <Route  path="/about" component={<AboutMe/>}></Route>
-         <Route  path="/skill" component={<Skills/>}></Route>
-         <Route  path="/resume" component={<Resume/>}></Route>
-         <Route  path="/testimonial" component={<Testimonials/>}></Route>
-         <Route  path="/contact" component={<ContactMe/>}/>
-      </Routes>*/}
-      
     </div>
   
   );

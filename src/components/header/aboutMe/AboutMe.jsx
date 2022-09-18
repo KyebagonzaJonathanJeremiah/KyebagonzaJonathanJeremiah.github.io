@@ -4,10 +4,9 @@ import { CalendarToday, LocationSearching, MailOutline, PermIdentity, PhoneAndro
 
 export default function AboutMe() {
   return (
-    <div className="aboutMe">
-      {/*<h1 className="Title">About Me</h1>*/}
-      <div className="aboutTop">
-        <div className="aboutTitle">
+    <div className="about-me">
+      <div className="about-top">
+        <div className="about-title">
           <h2>
               About Me
           </h2>
@@ -17,44 +16,44 @@ export default function AboutMe() {
         <p>I have an affinity toward opportunities that expound my skill-set for career growth.</p>
  
      </div>
-     <div className=" row userShow">
-                <div className="col-lg-6 userShowTop">
+     <div className="row user-show">
+                <div className="col-lg-6 user-show-top">
                   {/*<img src="../images/header1.jpg"></img>*/}
                     <img src="images/header2.jpg" 
-                         alt="" className="userShowImg" />
-                    <div className="userShowTopTitle">
-                        <span className="userShowUsername">Kyebagonza Jonathan Jeremiah</span>
-                        <span className="userShowUserTitle">Developer</span>
+                         alt="" className="user-show-img" />
+                    <div className="user-show-top-title">
+                        <span className="user-show-username">Kyebagonza Jonathan Jeremiah</span>
+                        <span className="user-show-user-title">Developer</span>
                     </div>
                 </div>
-                <div className="col-lg-6 aboutMeBottom">
-                    <div className="userShowInfo">
-                        <PermIdentity className="userShowIcon"/>
-                        <span className="userShowInfoTitle">
+                <div className="col-lg-6 about-me-bottom">
+                    <div className="user-show-info">
+                        <PermIdentity className="user-show-icon"/>
+                        <span className="user-show-info-title">
                         Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food.
                         </span>
                     </div>
-                    <div className="userShowInfo">
-                        <CalendarToday className="userShowIcon"/>
-                        <span className="userShowInfoTitle">
+                    <div className="user-show-info">
+                        <CalendarToday className="user-show-icon"/>
+                        <span className="user-show-info-title">
                         Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.
                         </span>
                     </div>
-                    <div className="userShowInfo">
-                        <PhoneAndroid className="userShowIcon"/>
-                        <span className="userShowInfoTitle">
+                    <div className="user-show-info">
+                        <PhoneAndroid className="user-show-icon"/>
+                        <span className="user-show-info-title">
                         Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy.
                         </span>
                     </div>
-                    <div className="userShowInfo">
-                        <MailOutline className="userShowIcon"/>
-                        <span className="userShowInfoTitle">
+                    <div className="user-show-info">
+                        <MailOutline className="user-show-icon"/>
+                        <span className="user-show-info-title">
                         Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy, fabulous food, and even better conversations.
                         </span>
                     </div>
-                    <div className="userShowInfo">
-                        <LocationSearching className="userShowIcon"/>
-                        <span className="userShowInfoTitle">
+                    <div className="user-show-info">
+                        <LocationSearching className="user-show-icon"/>
+                        <span className="user-show-info-title">
                         Intrigued by design, traveling, photography, classical music, strategy, writing, art, armchair philosophy.
                         </span>
                     </div>

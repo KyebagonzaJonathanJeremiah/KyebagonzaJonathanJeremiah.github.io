@@ -1,4 +1,4 @@
-.aboutMe{
+.about-me{
     width: 100%;
     min-height: 0;
     align-items: center;
@@ -8,7 +8,7 @@
     padding-top: 10%;
 }
 
-.aboutTitle h2{
+.about-title h2{
     font-size: 30px;
     align-items: center;
     font-weight: 500;
@@ -20,7 +20,7 @@
     text-transform: uppercase;
 }
 
-.aboutTitle h2:before{
+.about-title h2:before{
     content: "";
     position: absolute;
     left: 50%;
@@ -31,7 +31,7 @@
     background-color: #5bccfc;
 }
 
-.aboutTitle h2:after{
+.about-title h2:after{
     content: "";
     position: absolute;
     left: 50%;
@@ -71,17 +71,17 @@ p {
 
 }
 
-.userShow{
+.user-show{
     padding: 20px;
 }
 
-.userShowTop{
+.user-show-top{
     display: block;
     align-items: center;
     
 }
 
-.userShowImg{
+.user-show-img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -89,40 +89,40 @@ p {
     
 }
 
-.userShowTopTitle{
+.user-show-top-title{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
 }
 
-.userShowUsername{
+.user-show-username{
     font-weight: 700;
     color: #030e12;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.userShowUserTitle{
+.user-show-user-title{
     font-weight: 100;
     color: #030e12;
     font-family: "Playfair Display","Bookman", serif;
 }
 
-.aboutMeBottom{
+.about-me-bottom{
     margin-top: 20px;
 }
 
-.userShowInfo{
+.user-show-info{
     display: flex;
     align-items: center;
     color: #080808;
 }
 
-.userShowIcon{
+.user-show-icon{
     font-size: 16px !important;
     color: #c50000;
 }
 
-.userShowInfoTitle{
+.user-show-info-title{
     margin-left: 6px;
     display: block;
     font-family: "Playfair Display","Bookman", serif;
@@ -134,47 +134,3 @@ p {
     letter-spacing: 1px;
     line-height: 25px;
 }
-
-/*.aboutBottom{
-    -webkit-box-shadow: 5px 5px 15px 5px #555; 
-    box-shadow: 5px 5px 15px 5px #555;
-    width: 100%;
-    height: auto;
-    
-}
-
-.aboutLeft{
-    float: left;
-    
-    max-width: 50%;
-    height: auto;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.aboutRight{
-    float: right;
-    width: 50%;
-    height: auto;
-    display: inline-block;
-    justify-content: left;
-}
-
-.aboutList{
-    list-style: none;
-    text-align: left;
-}
-
-.aboutItem{
-    padding: 20px;
-}
-
-
-
-.aboutImg{
-    width: 40%;
-}
-
-p{
-    display: block;
-}*/

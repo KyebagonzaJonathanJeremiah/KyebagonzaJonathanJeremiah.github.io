@@ -6,7 +6,7 @@
     padding-top: 10%;
 }
 
-.testimonialTitle h2{
+.testimonial-title h2{
     font-size: 30px;
     align-items: center;
     font-weight: 500;
@@ -18,7 +18,7 @@
     text-transform: uppercase;
 }
 
-.testimonialTitle h2:before{
+.testimonial-title h2:before{
     content: "";
     position: absolute;
     left: 50%;
@@ -29,7 +29,7 @@
     background-color: #5bccfc;
 }
 
-.testimonialTitle h2:after{
+.testimonial-title h2:after{
     content: "";
     position: absolute;
     left: 50%;
@@ -41,10 +41,6 @@
     background-color: #5bccfc;
 }
 
-/* Importing fonts from Google */
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');*/
-
-/* Reseting */
 * {
     margin: 0;
     padding: 0;
@@ -110,8 +106,6 @@ body {
     backface-visibility: hidden;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
-    /* border-right: 1px solid #999;
-border-bottom: 1px solid #999; */
 }
 
 .card .face.front-face{
@@ -197,64 +191,3 @@ border-bottom: 1px solid #999; */
         margin-top: -50%;
     }
 }
-
-/*body {
-    background-color: #f7f6f6
-}
-
-.maincard {
-    position: relative;
-    width: 300px;
-    height: 300px
-}
-
-.thecard {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease
-}
-
-.thecard:hover {
-    transform: rotateY(180deg)
-}
-
-.thefront {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: hidden;
-    background: #D50000;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #eee;
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    padding: 10px
-}
-
-.theback {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background-color: hidden;
-    background: #D50000;
-    color: #fff;
-    border-radius: 10px;
-    transform: rotateY(180deg);
-    border: 1px solid #eee;
-    box-shadow: 5px 6px 6px 2px #e9ecef;
-    padding: 10px
-}
-
-.user_name {
-    color: #eee;
-    font-size: 10px;
-    margin-top: 0px
-}
-
-.about {
-    font-size: 12px
-}*/

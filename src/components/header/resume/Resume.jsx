@@ -4,7 +4,7 @@ import './resume.css';
 export default function Resume() {
   return (
     <div className="resume">
-           <div className="resumeTitle">
+           <div className="resume-title">
              <h2>Resume/Timeline</h2>
            </div>
 

@@ -33,55 +33,55 @@ const ContactMe = () => {
 
   return (
     <div className="contact">
-      <div className="contactTitle">
+      <div className="contact-title">
         <h2>Contact Me</h2>
       </div>
-      <div className="row contactContainer">
-            <div className="col-lg-6 contactShow">
-                <div className="contactShowTop">
+      <div className="row contact-container">
+            <div className="col-lg-6 contact-show">
+                <div className="contact-show-top">
                     <img src="images/header1.jpg" 
-                         alt="" className="contactShowImg" />
-                    <div className="contactShowTopTitle">
-                        <span className="contactShowUsername">Kyebagonza Jonathan Jeremiah</span>
-                        <span className="contactShowUserTitle">Developer</span>
+                         alt="" className="contact-show-img" />
+                    <div className="contact-show-top-title">
+                        <span className="contact-show-username">Kyebagonza Jonathan Jeremiah</span>
+                        <span className="contact-show-user-title">Developer</span>
                     </div>
                 </div>
-                <div className="contactShowBottom">
-                    <div className="contactShowInfo">
-                        <CalendarToday className="contactShowIcon"/>
+                <div className="contact-show-bottom">
+                    <div className="contact-show-info">
+                        <CalendarToday className="contact-show-icon"/>
                         <span>10.09.1998</span>
                     </div>
-                    <div className="contactShowInfo">
-                        <PhoneAndroid className="contactShowIcon"/>
+                    <div className="contact-show-info">
+                        <PhoneAndroid className="contact-show-icon"/>
                         <span>+256 7898 678</span>
                     </div>
-                    <div className="contactShowInfo">
-                        <MailOutline className="contactShowIcon"/>
+                    <div className="contact-show-info">
+                        <MailOutline className="contact-show-icon"/>
                         <span>jeremiahjkyebagonza@boymentorship.africa</span>
                     </div>
-                    <div className="contactShowInfo">
-                        <LocationSearching className="contactShowIcon"/>
+                    <div className="contact-show-info">
+                        <LocationSearching className="contact-show-icon"/>
                         <span>Kla|UG</span>
                     </div>
                 </div>
             </div>
 
-            <div className="col-lg-6 contactUpdate">
-                <span className="contactUpdateTitle">Send me a message!</span>
-                <form className="contactUpdateForm" id="contact-form" onSubmit={handleSubmit}>
-                        <div className="userUpdateItem">
+            <div className="col-lg-6 contact-update">
+                <span className="contact-update-title">Send me a message!</span>
+                <form className="contact-update-form" id="contact-form" onSubmit={handleSubmit}>
+                        <div className="contact-update-item">
                             <label htmlFor="name">Full name</label>
-                            <input type="text" placeholder="" id="name" className="userUpdateInput" />
+                            <input type="text" placeholder="" id="name" className="contact-update-input" />
                         </div>
-                        <div className="userUpdateItem">
+                        <div className="contact-update-item">
                             <label htmlFor="email" >Email</label>
-                            <input type="email" placeholder="" id="email" className="userUpdateInput" />
+                            <input type="email" placeholder="" id="email" className="contact-update-input" />
                         </div>
-                        <div className="userUpdateItem">
+                        <div className="contact-update-item">
                             <label htmlFor="message">Message</label>
                             <textarea rows="5" id="message"></textarea>
                         </div>
-                        <button className="userUpdateButton" type="submit">{status}</button>
+                        <button className="contact-update-button" type="submit">{status}</button>
                 </form>
             </div>
         </div>
